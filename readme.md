@@ -7,6 +7,22 @@
 * ERC-721 Token Symbol: `SNT`
 * Token Address on the Rinkeby Network: `0xcF9bB4097abefDa4BD2eD2aF441D0fC0F1Ca6cd6`
 
+
+## Build envirionment
+* Install pakcages
+```
+$ npm install --save truffle-hdwallet-provider
+$ npm install --save openzeppelin-solidity
+```
+
+* Run truffle and deploy contract
+```
+$ truffle develop
+$ compile
+$ test
+$ migrate --reset --network rikeby
+```
+
 ## Run application locally
 
 1. Run truffle
